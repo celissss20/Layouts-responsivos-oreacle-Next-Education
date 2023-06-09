@@ -1,6 +1,7 @@
 .sobre_nosotros{
     padding-top: 3rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .sobre_nosotros_titulo{
@@ -35,6 +36,7 @@
 @media screen and (min-width: 1024px) {
     .sobre_nosotros {
         display: flex;
+        background-color: var(--background-azul-claro);
     }
     .sobre_nosotros__contenido {
         margin-right: 3rem;

@@ -55,17 +55,20 @@
 
 /*Diseño responsivo pantalla computador*/
 @media screen and (min-width: 1024px) {
+    .institucional_titulo{
+        font-size: 2rem;
+        font-weight: bold;
+    }
     .institucional__contenido {
         width: 100%;
         display: flex;
         justify-content: space-between;
         text-align: left;
+        font-size: 1rem;
     }
 
     .institucional__video {
-        align-self: flex-end;
-
-        width: 375px;
+        width: 60%;
     }
 
     .institucional__contacto-email {
